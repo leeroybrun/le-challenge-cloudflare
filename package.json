@@ -1,25 +1,22 @@
 {
-  "name": "le-challenge-cloudflare",
-  "version": "1.0.1",
-  "description": "A cloudflare strategy for node-greenlock",
-  "main": "lib/index.js",
-  "author": "Maythee Anegboonlap <null@llun.me>",
-  "license": "ISC",
+  "name": "@ddg-gmbh/le-challenge-cloudflare",
+  "version": "1.1.0",
+  "description": "A Cloudflare challenge for greenlock",
+  "main": "index.mjs",
+  "repository": "https://github.com/buschtoens/le-challenge-cloudflare.git",
+  "author": "Jan Buschtöns <jan@buschtoens.me>",
+  "license": "MIT",
+  "private": false,
   "dependencies": {
-    "cloudflare": "^1.1.1"
+    "cloudflare": "buschtoens/node-cloudflare#feat-passing-options-to-got"
   },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/llun/le-challenge-cloudflare.git"
-  },
-  "keywords": [
-    "node-greenlock",
-    "letsencrypt",
-    "cloudflare"
-  ],
-  "bugs": {
-    "url": "https://github.com/llun/le-challenge-cloudflare/issues"
-  },
-  "homepage": "https://github.com/llun/le-challenge-cloudflare#readme"
+  "devDependencies": {
+    "babel-eslint": "^8.0.3",
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-prettier": "^2.4.0",
+    "prettier": "^1.9.2"
+  }
 }
