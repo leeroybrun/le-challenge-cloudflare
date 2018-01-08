@@ -13,7 +13,6 @@
 import Greenlock from 'greenlock';
 import LEStoreCertbot from 'le-store-certbot';
 import LEChallengeCloudflare from '@ddg-gmbh/le-challenge-cloudflare';
-import caw from 'caw';
 
 const store = LEStoreCertbot.create();
 
