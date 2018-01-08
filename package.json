@@ -1,6 +1,6 @@
 {
   "name": "@ddg-gmbh/le-challenge-cloudflare",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A Cloudflare challenge for greenlock",
   "main": "index.mjs",
   "repository": "https://github.com/buschtoens/le-challenge-cloudflare.git",
