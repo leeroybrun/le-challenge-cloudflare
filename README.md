@@ -21,8 +21,9 @@ const DNSChallenge = new LEChallengeCloudflare({
     email: process.env.cloudflare_email,
     key: process.env.cloudflare_api_key,
   },
-  acmePrefix: '_acme-challenge', // optional
-  waitForPropagation: 5 * 1000 // optional
+  acmePrefix: '_acme-challenge', // default
+  verifyPropagation: { waitFor: 5000, retries: 20 }, // default
+  useDNSOverHTTPS: false // default
 });
 
 const greenlock = Greenlock.create({

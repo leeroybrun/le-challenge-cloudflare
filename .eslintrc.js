@@ -10,6 +10,7 @@ module.exports = {
     'no-param-reassign': ['error', { props: false }],
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
     'no-restricted-syntax': 'off',
+    'no-await-in-loop': 'off',
     'import/no-unresolved': 'off',
     'import/extensions': 'off'
   }

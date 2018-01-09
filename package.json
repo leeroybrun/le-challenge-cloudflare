@@ -8,7 +8,8 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "cloudflare": "buschtoens/node-cloudflare#feat-passing-options-to-got"
+    "cloudflare": "buschtoens/node-cloudflare#feat-passing-options-to-got",
+    "dns-over-https": "^0.1.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.3",
