@@ -5,7 +5,7 @@
 ## Prior Art
 
 - [certbot-dns-cloudflare](https://github.com/certbot/certbot/tree/master/certbot-dns-cloudflare): The official certbot reference implementation by the EFF
-- [llun/le-challenge-cloudflare](https://github.com/llun/le-challenge-cloudflare):
+- [llun/le-challenge-cloudflare](https://github.com/llun/le-challenge-cloudflare)
 
 ## Usage
 
