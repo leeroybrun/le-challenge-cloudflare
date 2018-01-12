@@ -13,6 +13,9 @@
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
+    "esdoc": "^1.0.4",
+    "esdoc-ecmascript-proposal-plugin": "^1.0.0",
+    "esdoc-standard-plugin": "^1.0.0",
     "eslint": "^4.15.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-config-prettier": "^2.9.0",
