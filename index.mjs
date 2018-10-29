@@ -1,1 +1,3 @@
-export { default } from './lib/cloudflare-challenge';
+const challenge = require('./lib/cloudflare-challenge');
+
+module.exports = challenge;
