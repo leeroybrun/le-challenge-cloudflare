@@ -2,7 +2,7 @@
   "name": "@ddg-gmbh/le-challenge-cloudflare",
   "version": "1.3.1",
   "description": "A Cloudflare challenge for greenlock",
-  "main": "index.mjs",
+  "main": "index.js",
   "repository": "https://github.com/buschtoens/le-challenge-cloudflare.git",
   "author": "Jan Buschtöns <jan@buschtoens.me>",
   "license": "MIT",
