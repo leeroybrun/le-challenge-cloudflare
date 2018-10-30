@@ -9,7 +9,7 @@
   "private": false,
   "dependencies": {
     "cloudflare": "^2.4.0",
-    "dns-over-https": "^0.1.0"
+    "dns-over-https": "https://github.com/leeroybrun/dns-over-https.git"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
